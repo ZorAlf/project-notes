@@ -11,6 +11,7 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = true
+  env = "production"
   relativeURLs = true
   canonifyURLs = true
   mainSections = []
@@ -34,7 +35,3 @@ weight = 3
 name = "About"
 url = "/about/"
 weight = 4
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
