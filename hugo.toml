@@ -1,0 +1,38 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Project Notes"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "light"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
+  mainSections = []
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Chapters"
+url = "/chapters/"
+weight = 2
+
+[[menu.main]]
+name = "Gallery"
+url = "/gallery/"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 4
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
