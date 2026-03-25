@@ -11,6 +11,7 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = true
+  relativeURLs = true
   canonifyURLs = true
   mainSections = []
 
